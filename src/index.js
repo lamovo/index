@@ -1,6 +1,6 @@
 !function(name, definition) {
 	
-	if(false && typeof define === 'function' && typeof define.amd === 'object') definition && define(definition);
+	if(typeof define === 'function' && typeof define.amd === 'object') definition && define(definition);
 	else window[name] = definition();
 }
 ('Index', function() {
@@ -8,7 +8,7 @@
 return function(last, first) {
 	
 	var	self = {
-			version: '1.0.0',
+			version: '1.0.1',
 			loop: false,
 			removed: [],
 			added: [],
