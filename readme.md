@@ -1,18 +1,22 @@
-<h1>Integration</h1>
+<h1>Index.js</h1>
 
-<h2>Global</h2>
+<p>Index.js makes it easy to keep track of the current index, the previous and the next one. It features convenient properties like <code>loop</code> and <code>direction</code>. This makes it the perfect base for a slider, audio playlist, or any collection where you want to keep track of the active element.</p>
+
+<h2>Integration</h2>
+
+<h3>Global</h3>
 
 <pre><code>&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;</code></pre>
 
-<h2>RequireJS (AMD)</h2>
+<h3>RequireJS (AMD)</h3>
 
 <pre><code>require(['index'], function(Index) {
 
 });</code></pre>
 
-<h1>API</h1>
+<h2>API</h2>
 
-<h2>Initialization</h2>
+<h3>Initialization</h3>
 
 <table>
 	<thead>
@@ -28,7 +32,7 @@
 	</tr>
 </table>
 
-<h2>Methods</h2>
+<h3>Methods</h3>
 
 <table>
 	<thead>
@@ -46,7 +50,7 @@
 	</tr>
 </table>
 
-<h2>Properties</h2>
+<h3>Properties</h3>
 
 <table>
 	<thead>
@@ -129,3 +133,7 @@
 		<td>Version number.</td>
 	</tr>
 </table>
+
+<h2>Test</h2>
+
+<p>A Jasmine test is included. Open <code>test/SpecRunner.html</code> to run it.</p>
