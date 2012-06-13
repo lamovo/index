@@ -76,7 +76,7 @@
 	<tr>
 		<td><code>back</code></td>
 		<td><code>array</code></td>
-		<td>The history of previous, current and next past indices.</td>
+		<td>The history of previous, current and next indices.</td>
 	</tr>
 						
 	<tr>

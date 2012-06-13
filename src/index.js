@@ -8,7 +8,7 @@
 return function(last, first) {
 	
 	var	self = {
-			version: '1.0.4',
+			version: '1.0.5',
 			loop: false,
 			removed: [],
 			added: [],
