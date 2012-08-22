@@ -1,9 +1,9 @@
-!function(name, definition) {
+!function(factory) {
 	
-	if(typeof define === 'function' && typeof define.amd === 'object') definition && define(definition);
-	else window[name] = definition();
+	if(typeof define === 'function' && define.amd) define(factory);
+	else Index = factory();
 }
-('Index', function() {
+(function() {
 
 return function(last, first) {
 	

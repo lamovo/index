@@ -1,0 +1,13 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "Current, previous and next index helper",
+  "github": "https://github.com/lamovo/index",
+  "homepage": "http://lamovo.com",
+  "keywords": [
+  	"current",
+    "index",
+  	"next",
+  	"previous"
+  ]
+}
